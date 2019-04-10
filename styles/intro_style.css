@@ -1,0 +1,251 @@
+﻿/*EW*/
+/*.on{
+    display: block;
+}*/
+/*那个提示语换成图片了 用“on”有问题
+  得写出图片宽度  他们宽度还不一样
+  所以我把原来的 类型“on”
+  改成 “onpic1” “onpic2” “onpic3”啦
+*/
+.jxw{
+    display: none;
+}
+.onpic1{
+    width:40.225%;
+    display:block;
+}
+
+.onpic2{
+    width:55.8%;
+    display:block;
+}
+
+.onpic3{
+    width:43.938%;
+    display:block;
+}
+
+.off{
+    display: none;
+}
+
+.bluron{
+    filter: blur(7px);
+}
+
+.bluroff{
+    filter: blur(0px);
+}
+
+.introon{
+    display:block;/*介绍面是否显现*/
+    position: absolute;
+    background:white;
+    margin-top:19.04%;
+    margin-right:8.8%;
+    margin-left:8.8%;
+    margin-bottom:9.8%;
+}
+
+.btnon{
+    width:48.6%;
+    margin-top:1.1%;
+    margin-bottom:3.3%;
+    margin-left:43.2%;
+}
+
+/*EW*/
+
+body{
+    display: flex;
+    flex-direction: column;
+    background: #151C51;
+}
+
+.top_container{
+    display:flex;
+    flex-direction: row;
+}
+.tipsw{
+    width:100%;
+    display: flex;
+    flex-direction:row;
+    margin-top:6.67%;
+    margin-left:9%;
+    margin-bottom:4.5%;
+}
+
+.cgw{
+    font-size:24pt;
+    font-family: Noto Sans CJK SC;
+    font-weight: bold;
+    margin:0;
+}
+
+.clearw{
+    margin-left:77.78%;
+    width:13.33%;
+    position:absolute;
+}
+
+.departmentw{
+    width:19.51%;
+    margin-right:7.31%;
+}
+
+.circle3w,.big_firw,.big_secw{
+    width:17.8%;
+}
+
+.circle3w{
+    margin-bottom:0;
+}
+
+.pick1w{
+    width:40.225%;
+    /*display:none;*/
+}
+
+.pick2w{
+    width:55.8%;
+    display:none;
+    position:absolute;
+}
+
+.pick3w{
+    width:43.938%;
+    display:none;
+    position:absolute;
+}
+
+.circlew{
+    width: 100%;
+    margin-bottom:11.11%;
+}
+
+.fir_linew,.sec_linew,.thir_linew{
+    display:flex;
+    flex-direction: row;
+    margin-left:9%;
+    /*width: 100%;*/
+}
+
+.sec_linew,.thir_linew{
+    margin-top:2.2%;
+}
+
+.big_firw,.big_secw{
+    display:none;
+}
+
+.nmw{
+    color:#FFFFFF;
+    font-family:Noto Sans CJK SC;
+    font-weight:bold;
+    font-size: 24pt;
+    
+}/*长度单位需要调整*/
+
+.introw{
+    display:none;/*介绍面是否显现*/
+    position: absolute;
+    background:grey;
+    margin-top:19.04%;
+    margin-right:8.8%;
+    margin-left:8.8%;
+}
+
+.clsw{
+    width:7.1%;
+    /*background-color: black;/*为了使白色叉叉显现出来 全部完成后删除*/
+    position: absolute;
+    margin-top:8.1%;
+    margin-left:84.7%;
+}
+
+.picw{
+    width:100%;
+    /*position: absolute;*/
+}
+
+.nmw2{
+    color:#FFFFFF;
+    font-family: Noto Sans CJK SC;
+    font-size:66pt;
+    font-weight:bold;
+    margin-top:45.9%;
+    margin-left:5.4%;
+    position:absolute;
+    display:none;
+}
+
+.nmw2on{
+    color:#FFFFFF;
+    font-family: Noto Sans CJK SC;
+    font-size:66pt;
+    font-weight:bold;
+    margin-top:45.9%;
+    margin-left:5.4%;
+    position:absolute;
+    display:block;
+}
+
+.orange_circlew{
+    background:#FF9000;
+    width:16.22%;
+    padding-bottom:2.6%;
+    margin-top:4.4%;
+    margin-left:6.7%;
+}
+
+.intro_textw{
+
+    color:#151C51;
+    font-family:Noto Sans CJK SC;
+    font-size: 24pt;
+    font-weight: inherit;
+    width:83.8%;
+    background:white;
+    margin-top:2.2%;
+    /*margin-bottom: 2.2%;*/
+    margin-left:8.1%;
+    display:none;
+}
+.intro_textwon{
+    color:#151C51;
+    font-family:Noto Sans CJK SC;
+    font-size: 24pt;
+    font-weight: inherit;
+    width:83.8%;
+    background:white;
+    margin-top:2.2%;
+    margin-left:8.1%;
+    display:block;
+}
+/*准备*/
+.fir_btnw1,.fir_btnw2,.sec_btnw1,.sec_btnw2,.btnoff{/*EW*/
+    width:51.35%;
+    margin-top:1.1%;
+    margin-left:43.2%;
+    display:none;
+}
+
+.pick_containerw{
+    background:white;
+}
+
+.continuew{
+    width: 91%;
+    margin-left:44.59%;
+    position:absolute;
+    display: block;
+}
+
+.contnw{
+    font-family:Noto Sans CJK SC;
+    font-weight: bold;
+    font-size: 48pt;
+    width:200%;
+    margin-top:2.3%;
+    color:#FF9000;
+}

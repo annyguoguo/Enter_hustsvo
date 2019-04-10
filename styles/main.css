@@ -1,0 +1,183 @@
+@font-face{
+    font-family: NotoSansCJKsc-Regular;
+    src: url('./font/NotoSansCJKsc-Regular.otf');
+}
+html{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    font-family: NotoSansCJKsc-Regular;
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    background:#151C51;
+}
+.title5_w{
+    width:100%;
+}
+
+.num1w,.num2w{
+    height:40px;
+    display:flex;
+    flex-direction: row;
+    position: relative;
+}
+.num2w{
+    margin-top:2%;
+}
+#xiao1quanquan{
+    width:7%;
+}
+#xiao2quanquan{
+    width:7%;
+}
+#first_zy,#second_zy{
+    margin-left:15px;
+    font-size:16px;
+    font-weight:regular;
+    position: absolute;
+    top: 20%;
+    left: 5%;
+} 
+
+#xiugai{
+    width:100%;
+}
+
+#tijiaokeyong{
+    width:100%;
+}
+
+#box1_zy{
+    width:40%;
+    margin-top:6.67%;
+    margin-left:8.89%;
+}
+#information_zy{
+    position: absolute;
+    left: 8.89%;
+}
+#box2_zy{
+    font-size: 24px;
+    margin-top:3.4%;
+    margin-left:8.8%;
+    color: #FFFFFF ;
+}
+#box3_zy{
+    margin-top:4.4%;
+    margin-left:8.8%;
+    color: #FFFFFF ;
+}
+#box4_zy{
+    width: 100%;
+    left: 8.89%;
+    top: 52.5%;
+    line-height: 50%;
+    font-size: 12px;
+    color: #FFFFFF ;
+}
+#box5_zy{
+    font-size: 24px;
+    margin-left: 8.89%;
+    margin-top:6%;
+    color: #FFFFFF ;
+}
+
+.body_zy{
+    font-size: 12px;
+    color: #FFFFFF ;
+}
+.title_zy{
+    font-family: Noto Sans CJK SC;
+    font-size: 24px;
+    font-weight: regular;
+    color: #FFFFFF ;
+}
+.tag_zy{
+    width: 25%;
+    height: 6.25%;
+    display: inline;
+    line-height: 200%;
+}
+
+#tag_phone_zy{
+    font-size: 12px;
+    margin-left: 8.89%;
+    margin-top:4.4%;
+    color: #FFFFFF ;
+}
+
+#phonenumber_zy{
+    font-size: 12px;
+    margin-left:11.61%;
+    margin-top:4.4%;
+    color: #FFFFFF ;
+}
+
+#tag_mail_zy{
+    font-size: 12px;
+    margin-left: 8.89%;
+    color: #FFFFFF ;
+}
+
+#email_zy{
+    font-size: 12px;
+    margin-left: 5.4%;
+    color: #FFFFFF ;
+}
+
+#tag_special_zy{
+    font-size: 12px;
+    margin-left: 8.89%;
+    margin-top:4.4%;
+    color: #FFFFFF ;
+}
+
+#specialty_zy{
+    width:64.4%;
+    word-wrap:break-word;
+    word-break:break-all;
+    overflow: hidden;
+    font-size: 12.2px;
+    margin-left:11.61%;
+    margin-top:4.4%;
+    margin-right:4.4%;
+    color: #FFFFFF ;
+}
+
+#name_zy{
+    font-size: 18px;
+    color: #FFFFFF ;
+}
+#major_zy{
+    font-size: 14px;
+    color: #FFFFFF ;
+}
+
+.phonew,.emailw,.featuresw{
+    display:flex;
+    flex-direction: row;
+}
+
+#department_zy{
+    margin-top:3.44%;
+    margin-left:8.89%;
+    color: #FFFFFF ;
+}
+.buttonsw{
+    display: flex;
+    flex-direction: row;
+    margin-top:6.67%;
+    margin-left: 8.89%;
+    margin-right: 8.89%;
+    margin-bottom:10%;
+}
+#cancel_zy{
+    width:100%;
+}
+#submit_zy{
+    width:100%;
+    margin-left:35.1%;
+}
